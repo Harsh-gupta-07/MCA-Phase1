@@ -1,0 +1,13 @@
+# simulation outputs (regenerate with sim/run_all.sh)
+sim/*.vvp
+sim/*.vcd
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+# Python
+__pycache__/
+*.pyc
