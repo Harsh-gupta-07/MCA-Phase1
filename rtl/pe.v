@@ -1,7 +1,6 @@
 // =============================================================================
 // File        : pe.v
 // Project     : Systolic Array Matrix Multiplication Accelerator (CSA-222)
-// Owner       : Member 2
 // Description : Output-stationary Processing Element (PE).
 //
 //              b_in (from north)

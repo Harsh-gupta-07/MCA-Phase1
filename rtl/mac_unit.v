@@ -1,7 +1,4 @@
 // =============================================================================
-// File        : mac_unit.v
-// Project     : Systolic Array Matrix Multiplication Accelerator (CSA-222)
-// Owner       : Member 1
 // Description : Signed fixed-point Multiply-Accumulate (MAC) unit.
 //
 //   acc <= acc + a * b          (when en = 1)
