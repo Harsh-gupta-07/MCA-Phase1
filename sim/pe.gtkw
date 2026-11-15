@@ -1,0 +1,13 @@
+[dumpfile] "tb_pe.vcd"
+[timestart] 0
+@28
+tb_pe.clk
+tb_pe.rst_n
+tb_pe.clear
+tb_pe.en
+@420
+tb_pe.a_in[7:0]
+tb_pe.b_in[7:0]
+tb_pe.a_out[7:0]
+tb_pe.b_out[7:0]
+tb_pe.acc_out[31:0]
