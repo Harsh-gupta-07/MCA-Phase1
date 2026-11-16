@@ -59,7 +59,7 @@ Requirements: Icarus Verilog (v12 or v13), Python 3, GTKWave (optional, for view
 
 ```bash
 cd sim
-make all                 # or ./run_all.sh   (Windows: run_all.bat)
+make all                 # or ./run_all.sh
 ```
 
 Expected output:
