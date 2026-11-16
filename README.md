@@ -6,8 +6,8 @@ A parameterised **4×4 output-stationary systolic array** for signed fixed-point
 | | |
 |---|---|
 | **Phase I report** | [`report/phase1_report.pdf`](report/phase1_report.pdf) (IEEE format, LaTeX source alongside) |
-| **Prototype video** | **[ADD VIDEO LINK HERE]** |
-| **Team** | [Member 1] · [Member 2] · [Member 3] · [Member 4] · [Member 5] |
+| **Prototype video** | **[Watch on Google Drive](https://drive.google.com/file/d/1_Fuetn23N6ReVL-TJW9B5vXp2K5eXfok/view?usp=sharing)** |
+| **Team** | Harshvardhan Gupta (2401010185) · Harsha Gonela (2401010181) · Abhijeet Dey (2401010014) · Saumya Kumar (2401010432) · Shivansh Upadhayay (2401020109) |
 
 ![System block diagram](docs/figures/fig_system_block.png)
 
@@ -35,15 +35,15 @@ A parameterised **4×4 output-stationary systolic array** for signed fixed-point
 
 ```
 rtl/                     synthesizable RTL
-  mac_unit.v             signed Q4.4 multiply + 32-bit accumulate      (Member 1)
-  pe.v                   processing element: MAC + forwarding regs      (Member 2)
-  systolic_array.v       N×N PE grid (generate loops)                   (Member 3)
-  input_skew.v           diagonal skew buffers                          (Member 3)
-  matrix_buffer.v        A/B input buffers + matrix data interface      (Member 4)
-  systolic_controller.v  IDLE/CLEAR/FEED/DRAIN/DONE FSM                 (Member 4)
-  systolic_top.v         top level + output read mux                    (Member 4)
+  mac_unit.v             signed Q4.4 multiply + 32-bit accumulate      (Harshvardhan Gupta)
+  pe.v                   processing element: MAC + forwarding regs      (Harsha Gonela)
+  systolic_array.v       N×N PE grid (generate loops)                   (Abhijeet Dey)
+  input_skew.v           diagonal skew buffers                          (Abhijeet Dey)
+  matrix_buffer.v        A/B input buffers + matrix data interface      (Saumya Kumar)
+  systolic_controller.v  IDLE/CLEAR/FEED/DRAIN/DONE FSM                 (Saumya Kumar)
+  systolic_top.v         top level + output read mux                    (Saumya Kumar)
 tb/                      self-checking testbenches (one per level)
-model/golden_model.py    bit-exact Python reference + vector generator  (Member 5)
+model/golden_model.py    bit-exact Python reference + vector generator  (Shivansh Upadhayay)
 tests/vectors/           generated $readmemh vectors + readable dump
 sim/                     Makefile, run_all.sh / run_all.bat, GTKWave presets (*.gtkw)
 docs/figures/            block, PE, dataflow, FSM and waveform figures (TikZ sources in src/)
