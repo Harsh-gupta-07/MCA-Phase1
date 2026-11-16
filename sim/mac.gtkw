@@ -1,0 +1,12 @@
+[dumpfile] "tb_mac_unit.vcd"
+[timestart] 0
+@28
+tb_mac_unit.clk
+tb_mac_unit.rst_n
+tb_mac_unit.clear
+tb_mac_unit.en
+@420
+tb_mac_unit.a[7:0]
+tb_mac_unit.b[7:0]
+tb_mac_unit.dut.product[15:0]
+tb_mac_unit.acc[31:0]
